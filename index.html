@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="#">
+    <title>Super Trunfo Cães de Raça</title>
+</head>
+
+<body>
+
+
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
+        alt="">
+    <div class="container">
+        <h1 class="page-title">Super Trunfo Cães de Raça</h1>
+        <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+        
+            <h2>Escolha o seu atributo</h2>
+            <div id="placar"></div>
+            <p><div id="quantidade-cartas"></div></p>
+    </div>
+    <form id="form">
+    <div class="wrapper">
+
+        <div id="cartas">
+
+            <div id="carta-jogador" class="carta"></div>
+            <div id="carta-maquina" class="carta"></div>
+        </div>
+        <div id="resultado"></div>
+
+        <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar
+        </button>
+        <button type="button" id="btnProximaRodada" onclick="proximaRodada()" disabled="true">Próxima
+            rodada
+        </button>
+    </div>
+
+    </form>
+    </div>
+
+
+    <audio id="somGanhou">
+        <source src="https://mp3.fastupload.co/data/1617234513/salamisound-2833057-dog-barks-five-times.mp3"
+            type="audio/mp3">
+    </audio>
+    <audio id="somPerdeu">
+        <source src="https://mp3.fastupload.co/data/1617234044/dog-howling-yapping-daniel-simon-mp3cut.net.mp3
+                                " type="audio/mp3">
+    </audio>
+    <audio id="somEmpatou">
+        <source src="https://mp3.fastupload.co/data/1617234281/salamisound-8257583-growling-teeth-baring-a.mp3"
+            type="audio/mp3">
+    </audio>
+<footer>
+    &copy; 2021 - Júlio Ribeiro -
+        Desenvolvimento Web
+</footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

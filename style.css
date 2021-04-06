@@ -1,0 +1,180 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 854px;
+    background-image: url('https://images.unsplash.com/photo-1574273443477-87bf272e5100?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 20px 0 20px 0;
+    color: #4A4E4D;
+
+}
+
+.container {
+    
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.781);
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);;
+}
+
+
+
+.page-logo{
+    width:100px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title {
+    font-family: 'Press Start 2P', cursive;
+}
+
+button{
+
+      width: 14rem;
+      max-width: 14rem;
+      padding: .8rem 1.5rem;
+      margin: 1rem auto;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);;
+
+
+}
+
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+
+#carta-jogador, #carta-maquina {
+    width: 360px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 35px;
+    border-radius: 33px;
+}
+
+
+.carta-imagem {
+    border: 1px solid black;
+    height: 100px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta-status {
+    height: 155px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+    text-align: left;
+    
+}
+
+.carta-status input {
+    margin: 10px 10px;
+    cursor: pointer;
+
+}
+.carta-status p {
+    height: 18px;
+    
+}
+
+.resultado-final {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    background-color: red;
+    width: 300px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+.--spacing {
+    margin-left: 2.8rem;
+    margin-bottom: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+
+
+    
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 16px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+#placar, #quantidade-cartas {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer {
+    font-size: 16px;
+    margin-top: 100px;
+    color: #4A4E4D;
+    text-align: center;
+    text-decoration: none;
+    background-color: aliceblue;
+    width: 500px;
+    margin: 200px auto 0;
+    border-radius: 5px;
+    
+}
+
+/* =======MEDIA QUERY ======= */
+
+
+
